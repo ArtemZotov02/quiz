@@ -1,0 +1,33 @@
+.correctAnswerBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 250px;
+
+    p {
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
+.questionNextBtn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(25, 114, 77);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+@media (max-width: 650px) {
+    .correctAnswerBlock {
+        p {
+            font-size: 16px;
+        }
+    }
+    .questionNextBtn {
+        width: 100%;
+    }
+}
